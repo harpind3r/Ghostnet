@@ -174,6 +174,9 @@ Users can:
 * transmit encoded image
 * extract hidden payload inside relay session
 
+<img width="800" height="500" alt="Screenshot (306)" src="https://github.com/user-attachments/assets/42d50eab-89dc-4d1b-b572-f5ec5788c47f" />
+
+
 Uses:
 
 ## LSB Steganography
