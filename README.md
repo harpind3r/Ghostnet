@@ -29,7 +29,7 @@ Designed and developed using:
 
 Create or join temporary stealth relay sessions using dynamic room codes.
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0e40a1d9-70e5-48af-b70a-217ea41b4e0b" />
+<img width="720" height="1000" alt="image" src="https://github.com/user-attachments/assets/0e40a1d9-70e5-48af-b70a-217ea41b4e0b" />
 
 
 
@@ -39,7 +39,10 @@ Create or join temporary stealth relay sessions using dynamic room codes.
 
 Realtime stealth communication tunnel with symbolic encrypted messaging.
 
-![Secure Relay](assets/secure-relay.png)
+
+<img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/1538b3b9-9db4-4fc1-87d3-68cea9e1ead2" />
+
+
 
 ---
 
