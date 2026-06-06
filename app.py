@@ -54,4 +54,4 @@ def handle_alert(data):
     emit('receive_alert', data, room=room)
 
 if __name__ == '__main__':
-    socketio.run(app, debug=True, host='0.0.0.0', port=5000)
+    socketio.run(app, host='0.0.0.0', port=5000)
