@@ -177,6 +177,7 @@ Users can:
 Uses:
 
 ## LSB Steganography
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/e0c036c1-f4b6-42aa-98a1-9cd6c7d08542" />
 
 ---
 
