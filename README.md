@@ -29,7 +29,9 @@ Designed and developed using:
 
 Create or join temporary stealth relay sessions using dynamic room codes.
 
-![Entry Interface](assets/entry-interface.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0e40a1d9-70e5-48af-b70a-217ea41b4e0b" />
+
+
 
 ---
 
