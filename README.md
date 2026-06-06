@@ -50,7 +50,8 @@ Realtime stealth communication tunnel with symbolic encrypted messaging.
 
 Messages are automatically transformed into symbolic encrypted outputs using the ITD architecture.
 
-![ITD Translation](assets/itd-translation.png)
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/f3a37e73-2e77-429b-a235-3e7eb7cabd73" />
+
 
 ---
 
