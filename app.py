@@ -6,7 +6,7 @@ import string
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'ghostnet-temp-key-84839'
 
-# max_http_buffer_size=1e8 allows sending large image files up to 100MB
+ 
 socketio = SocketIO(app, cors_allowed_origins="*", ping_interval=5, ping_timeout=10, max_http_buffer_size=1e8)
 
 active_rooms = {}
