@@ -73,7 +73,7 @@ socket.on('receive_message', (payload) => {
     }
 
     if (payload.type === 'text') {
-        // FIX: The raw payload.data is stored purely as innerText safely in the DOM
+        
         contentHTML = `
             ${replyBlockHTML}
             <div class="content" id="raw_${payload.id}">${payload.data}</div>
