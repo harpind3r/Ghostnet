@@ -25,7 +25,7 @@ body, html {
 
 .blur-active { filter: blur(35px) grayscale(80%) brightness(0.5); pointer-events: none; }
 
-/* Tactical Atmosphere */
+ 
 .cyber-grid { 
     position: fixed; top: 0; left: 0; width: 100%; height: 100%; 
     background-image: linear-gradient(var(--cyan-dim) 1px, transparent 1px), linear-gradient(90deg, var(--cyan-dim) 1px, transparent 1px); 
@@ -56,7 +56,7 @@ body, html {
     height: 100%; padding: 20px; position: relative; z-index: 20; 
 }
 
-/* HIGH-END HUD PANELS */
+ 
 .hud-panel { 
     position: relative; background: var(--panel-bg); 
     backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px);
@@ -68,8 +68,7 @@ body, html {
 .hud-corner { position: absolute; width: 25px; height: 25px; border: 2px solid var(--cyan); }
 .top-left { top: -2px; left: -2px; border-right: none; border-bottom: none; }
 .bottom-right { bottom: -2px; right: -2px; border-left: none; border-top: none; }
-
-/* Micro elements & Typography */
+ 
 .system-status { font-size: 0.65rem; color: var(--cyan); letter-spacing: 3px; display: flex; align-items: center; gap: 5px; opacity: 0.8; justify-content: center;}
 .system-status.warning { color: var(--red); justify-content: flex-start;}
 .micro-text { font-size: 0.65rem; color: var(--cyan); opacity: 0.7; letter-spacing: 2px; text-transform: uppercase;}
@@ -79,7 +78,7 @@ body, html {
 h1.glitch { font-size: 3.5rem; text-align: center; margin: 10px 0 15px 0; color: #fff; text-shadow: 3px 0px 0px var(--cyan), -3px 0px 0px var(--red); letter-spacing: 6px; }
 .cyan-glow { color: #fff; text-shadow: 0 0 12px var(--cyan-glow); letter-spacing: 1px; }
 
-/* HOLOGRAPHIC BADGES */
+ 
 .cyber-badges { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 25px; }
 .badge { 
     background: rgba(0, 243, 255, 0.05); border: 1px solid var(--cyan-dim); 
@@ -88,7 +87,7 @@ h1.glitch { font-size: 3.5rem; text-align: center; margin: 10px 0 15px 0; color:
 }
 .badge.danger { border-color: rgba(255, 0, 60, 0.4); color: var(--red); background: rgba(255, 0, 60, 0.05); box-shadow: 0 0 10px rgba(255, 0, 60, 0.1); }
 
-/* STEALTH CREATOR SIGNATURE */
+ 
 .creator-signature { 
     margin-top: 35px; text-align: center; display: flex; flex-direction: column; 
     align-items: center; gap: 3px; opacity: 0.3; transition: 0.3s ease; 
@@ -97,7 +96,7 @@ h1.glitch { font-size: 3.5rem; text-align: center; margin: 10px 0 15px 0; color:
 .sig-title { font-size: 0.55rem; color: var(--cyan); letter-spacing: 2px; text-transform: uppercase;}
 .sig-name { font-size: 0.7rem; color: var(--text-main); letter-spacing: 3px; text-transform: uppercase;}
 
-/* Inputs */
+ 
 .input-group { margin-bottom: 15px; display: flex; gap: 10px; width: 100%; }
 input { 
     width: 100%; padding: 14px 15px; background: rgba(0,0,0,0.6); 
@@ -109,8 +108,7 @@ input::placeholder { color: rgba(0, 243, 255, 0.3); }
 
 .divider { text-align: center; margin: 20px 0; border-bottom: 1px dashed var(--cyan-dim); line-height: 0.1em; }
 .divider .micro-text { background: var(--bg-deep); padding: 0 15px; }
-
-/* Premium Cyber Buttons */
+ 
 .cyber-btn { 
     padding: 14px 22px; font-weight: bold; letter-spacing: 1px; transition: all 0.3s; 
     cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px;
@@ -132,7 +130,7 @@ input::placeholder { color: rgba(0, 243, 255, 0.3); }
 .icon-btn:hover { background: var(--cyan); color: #000; }
 .mobile-send-icon { display: none; }
 
-/* Chat Layout structure */
+ 
 .chat-header { display: flex; justify-content: space-between; align-items: center; padding-bottom: 15px; border-bottom: 1px solid var(--cyan-dim); flex-shrink: 0; }
 .terminal-logs { 
     height: 60px; overflow-y: auto; background: rgba(0,0,0,0.8); border: 1px solid var(--cyan-dim); 
@@ -141,13 +139,13 @@ input::placeholder { color: rgba(0, 243, 255, 0.3); }
 }
 .terminal-logs p { color: var(--green); font-size: 0.75rem; margin-bottom: 4px;}
 
-/* WHATSAPP STYLE CHAT SCROLL AREA */
+ 
 .chat-box { 
     flex-grow: 1; overflow-y: auto; display: flex; flex-direction: column; gap: 15px; 
     padding-right: 8px; margin-bottom: 15px; scroll-behavior: smooth; 
 }
 
-/* Chat Messages */
+ 
 .message { 
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0,0,0,0.2)); 
     border: 1px solid var(--cyan-dim); border-left: 3px solid var(--cyan); 
@@ -171,7 +169,7 @@ input::placeholder { color: rgba(0, 243, 255, 0.3); }
 }
 .btn-translate:hover { background: var(--cyan-dim); border-color: var(--cyan); }
 
-/* Reply Box */
+ 
 .reply-indicator { 
     background: rgba(0, 243, 255, 0.05); border: 1px solid var(--cyan-dim); 
     padding: 10px 15px; margin-bottom: 10px; display: flex; justify-content: space-between; 
@@ -185,7 +183,7 @@ input::placeholder { color: rgba(0, 243, 255, 0.3); }
 }
 .reply-block:hover { background: rgba(0, 243, 255, 0.05); border-color: var(--cyan); }
 
-/* Input Bottom Area */
+ 
 .input-area { display: flex; gap: 10px; align-items: stretch; flex-shrink: 0; margin-top: auto; }
 .input-area input { flex-grow: 1; }
 
@@ -201,9 +199,7 @@ input::placeholder { color: rgba(0, 243, 255, 0.3); }
 .stego-modal-box { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 100; max-width: 90%; width: 420px; }
 .file-input { padding: 10px; font-size: 0.8rem; background: rgba(0,0,0,0.8); margin-bottom: 15px; border-left: 3px solid var(--green);}
 
-/* =========================================
-   PERFECT MOBILE RESPONSIVENESS
-========================================= */
+ 
 @media (max-width: 768px) {
     .container { padding: 0; }
     
