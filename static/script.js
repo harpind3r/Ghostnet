@@ -200,7 +200,7 @@ window.addEventListener('keyup', (e) => {
 
 socket.on('receive_alert', (data) => {
     const alertDiv = document.createElement('div'); alertDiv.className = 'system-alert';
-    alertDiv.innerText = `⚠️ SECURITY BREACH: ${data.msg} ⚠️`; chatBox.appendChild(alertDiv); chatBox.scrollTop = chatBox.scrollHeight;
+    alertDiv.innerText = ` SECURITY BREACH: ${data.msg} `; chatBox.appendChild(alertDiv); chatBox.scrollTop = chatBox.scrollHeight;
 });
 
 document.getElementById('btn-panic').addEventListener('click', () => { chatBox.innerHTML = ''; setTimeout(() => location.reload(), 1500); });
